@@ -1,0 +1,141 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+/* MENU */
+
+/* .site-header {
+  background-color: rgba(235, 215, 77, 0.9);
+} */
+@media only screen and (min-width: 1025px) {
+  .header-wrap .row { 
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex; 
+    align-items: center;
+  }
+}
+
+.site-header {
+   background-color: rgba(42,50,55,1) !important;
+   padding: 5px !important;
+}
+
+.site-header.fixed {
+   background-color: rgba(42,50,55,1) !important;
+}
+
+/* HERO */
+
+/* .herovidoverlay {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	height: 50%;
+	width: 50%;
+	background: black;
+	opacity: 0.5;
+} */
+
+a.roll-button.button-slider {
+  display: none !important;
+}
+
+/* FACTS */
+
+.sydney_facts_widget .col-md-3:nth-of-type(1) .numb-count::after {
+    content: '+';
+}
+/* .sydney_facts_widget .col-md-3:nth-of-type(3) .numb-count::before {
+    content: '< ';
+} */
+.sydney_facts_widget .col-md-3:nth-of-type(3) .numb-count::after {
+    content: 's';
+}
+.sydney_facts_widget .col-md-3:nth-of-type(4) .numb-count::after {
+    content: '++';
+}
+
+/* SERVICES */
+
+.fa-android:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  /* background-image: url('http://sydney/wp-content/uploads/2017/05/o365-small.png'); */
+  background-image: url('http://sydney/wp-content/uploads/2017/05/Office-365_64x64.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+.fa-apple:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  background-image: url('http://sydney/wp-content/uploads/2017/05/backup-icon-small.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+.fa-server:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  background-image: url('http://sydney/wp-content/uploads/2017/05/hosting-small.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+.fa-bitcoin:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  background-image: url('http://sydney/wp-content/uploads/2017/05/drift-icon-small.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+.fa-ambulance:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  background-image: url('http://sydney/wp-content/uploads/2017/05/kurs-icon-small.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+.fa-archive:before{
+  content: '' !important; /* Remove default icon */
+  display: block;
+  width: 32px;
+  height: 32px; 
+  background-image: url('http://sydney/wp-content/uploads/2017/05/support-icon-small.png');
+  background-size: contain;
+  background-position: center center;
+  margin-top: 17px;
+}
+
+#pgc-220-3-1 {
+	display: -ms-flexbox !important; 
+    display: -webkit-flex !important; 
+    display: flex !important; 
+    align-items: center !important;
+}
